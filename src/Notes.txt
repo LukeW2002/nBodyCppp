@@ -1,0 +1,43 @@
+
+
+STRUCTURE:
+ 	ROOT:
+ 				A Child 0:
+ 					AA Child 0 of Mass 20:
+ 						Has 2 points of Mass 10. 
+
+ 					AB Child 1:
+ 					
+ 					AC Child 2:
+ 						Has 2 points of Mass 10. 
+
+ 					AD Child 3:
+ 				B Child 1:
+ 					BA Child 0:
+
+ 					BB Child 1 of Mass 80:
+ 						BBA Child 0:
+ 							Has 2 points of Mass 10. 
+ 						BBB Child 1:
+ 							Has 2 points of Mass 10. 
+
+ 						BBC Child 2:
+ 							Has 2 points of Mass 10. 
+
+ 						BBD Child 3:
+ 							Has 2 points of Mass 10. 
+
+ 					BC Child 2:
+ 					BD Child 3:
+ 				C Child 2:
+ 				D Child 3:
+
+ 	To reach point in BBD I go Root -> B Child 1 -> BB child 1 -> BBD child 3 
+
+
+ CalcForces:
+	 Something that removes this value from every vector in X.
+	 I will need code which splits the data into bite size chunks to feed into the registers
+	 I Should first vectorise the problem
+	 From that I could hold a vector of those coordinates, holding enough that maxes out the registers.
+	 fill rest with zero if I cant fit enough.

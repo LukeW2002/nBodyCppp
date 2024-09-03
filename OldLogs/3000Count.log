@@ -1,0 +1,14 @@
+
+--- Logging Started at Sun Sep  1 16:53:23 2024
+[0] [INFO] src/main.cpp:12 in main(): Starting Nbody simulation
+[0] [INFO] src/main.cpp:24 in main(): Initializing simulation with dimensions 1366x768 and 3000 points
+[0] [INFO] src/render.cpp:27 in Renderer(): Renderer initialized successfully!
+[0] [INFO] src/simulation.cpp:47 in Simulation(): SIMULATION INITIALISED
+[20] [INFO] src/debug.cpp:27 in report(): Profiling Report:
+[20] [INFO] src/debug.cpp:30 in report():   Events: Total time: 0.001128 s, Calls: 18, Avg time: 0.000063 s
+[20] [INFO] src/debug.cpp:30 in report():   Frame: Total time: 128.096221 s, Calls: 18, Avg time: 7.116457 s
+[20] [INFO] src/debug.cpp:30 in report():   Physics Update: Total time: 17.931396 s, Calls: 18, Avg time: 0.996189 s
+[20] [INFO] src/debug.cpp:30 in report():   Rendering: Total time: 0.055354 s, Calls: 18, Avg time: 0.003075 s
+[20] [INFO] src/main.cpp:29 in main(): Simulation completed successfully
+--- Logging ended atSun Sep  1 16:53:43 2024
+[20] [INFO] src/render.cpp:40 in ~Renderer(): Renderer Destroyed!
